@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+int n;
+printf("enter the numner:");
+scanf("%d",&n);
+if(n>0)
+printf("given number is positive\n");
+if(n<0)
+printf("given number is negative\n");
+if(n==0)
+printf("given number is equal to zero\n");
+return 0;
+}
