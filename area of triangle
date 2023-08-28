@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main()
+{
+int area,b,h;
+printf("enter the height and breadth");
+scanf("%d %d",&b,&h);
+area=(b*h)/2;
+printf("area is %d",area);
+return 0;
+}
